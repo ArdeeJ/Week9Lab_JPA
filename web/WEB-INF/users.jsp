@@ -28,6 +28,7 @@
                 <td></td>
             </tr>
         </table>
+        <p>${message}</p>
         <h1>Add User</h1>
         <form>
             Email: <input type="email" name="emailAddress"><br>
@@ -39,6 +40,7 @@
                 <option value="regular user">regular user</option>
             </select><br>
             <input type="submit" value="Add user">
+            <p>${message}</p>
         </form>
     </body>
 </html>
